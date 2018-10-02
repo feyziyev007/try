@@ -1,0 +1,32 @@
+body {
+  height: 5000px;
+  background-color: #23a392; }
+
+div {
+  height: 100px;
+  border: 1px solid #445544; }
+
+p {
+  color: #23a392; }
+
+h1 {
+  background-color: #23a392; }
+
+.main {
+  border: 1px solid white; }
+  .main ul {
+    list-style-type: none; }
+    .main ul li {
+      float: left; }
+      .main ul li a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px;
+        background-color: white;
+        color: #23a392;
+        transition: all 0.3s ease-in-out; }
+        .main ul li a:hover {
+          background-color: #611c1c;
+          color: wheat; }
+
+/*# sourceMappingURL=style.css.map */

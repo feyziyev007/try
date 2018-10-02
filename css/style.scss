@@ -1,0 +1,46 @@
+
+$main-color: rgb(35, 163, 146);
+
+body{
+    height: 5000px;
+    background-color: $main-color;
+}
+
+div{
+    height: 100px;
+    border: 1px solid #445544;
+}
+
+p{
+    color: $main-color;
+}
+
+h1{
+    background-color: $main-color;
+}
+
+.main{
+    border: 1px solid white;
+
+    ul{
+        list-style-type: none;
+
+        li{
+            float: left;
+
+            a{
+                text-decoration: none;
+                display: inline-block;
+                padding: 15px;
+                background-color: white;
+                color: $main-color;
+                transition: all 0.3s ease-in-out;
+
+                &:hover{
+                    background-color: rgb(97, 28, 28);
+                    color: wheat;
+                }
+            }
+        };
+    }
+}
